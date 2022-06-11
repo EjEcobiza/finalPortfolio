@@ -1,0 +1,159 @@
+<html>
+<head>
+  <title> EJ Ordillano Ecobiza's Portfolio </title>
+</head>
+
+<style>
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+body {
+  margin: 0;
+  font-family: Montserrat-Regular;
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url("Montserrat-Regular.ttf");
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #322d31;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: #c5c6d0;
+  text-decoration: underline;
+}
+
+.topnav a.active {
+  color: #c5c6d0;
+  text-decoration: underline;
+}
+
+.bg {
+  background-image: url("Picture1.JPG");
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.8;
+}
+
+.bg2{
+    background-image: url("Picture2.JPG");
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
+  line-height: 1.8;
+}
+
+.bg3{
+    background-image: url("Picture3.JPG");
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.8;
+}
+
+.bg4{
+    background-image: url("Picture4.JPG");
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.8;
+}
+
+</style>
+
+<body>
+
+<div class="topnav">
+  <a href="01(Home).html">Home</a>
+  <a href="02(About Me).html">About Me</a>
+  <a class="active" href="03(Goals).html">Goals</a>
+  <a href="04(Contact).html">Contact</a>
+</div>
+
+
+<div class="bg">
+
+  <p style="text-align: left; color: #fff;
+position: absolute; left: 25px; top: 30px; font-size: 2vw; text-shadow: 2px 2px 5px #a9eed1;">
+    
+      Whether it's JavaScript,<br> 
+      CSS or HTML, a career in <br>
+      web development allows you<br> 
+      to focus on areas you enjoy <br>
+      and excel at, allowing you to <br>
+      become a leader in your field.
+      </p>
+</div>
+
+
+<div class="bg2">
+
+<p style ="color: #fff; position: absolute; right: 25px;  bottom: -600px;  font-size: 2vw; text-shadow: 2px 2px 5px #a9eed1;">
+
+      This has been the reason<br> 
+      why I got interested in web <br>
+      developing and/or designing.<br>
+      It allows you to be creative<br>
+      and imaginative, making those<br>
+      imaginations come to life, in<br>
+      a digital form.
+      </p>
+</div>
+
+<div class="bg3">
+
+<p style="text-align: left; color: #fff;
+position: absolute; left: 25px; bottom: -1100px; font-size: 2vw; text-shadow: 2px 2px 5px #a9eed1;">
+  
+      The beauty of coding and<br>
+      its result will always be<br>
+      fascinating.
+      </p>
+</div>
+
+<div class="bg4">
+
+<p style ="text-align: left; color: #fff; position: absolute; left: 25px;  bottom: -2100px;  font-size: 2vw; text-shadow: 2px 2px 5px #a9eed1;">
+
+      Once again, I am<br>
+      EJ Ordillano Ecobiza<br>
+      an aspiring Web Developer.
+      </p>
+</div>
+
+<div style="position: relative; bottom: -5px; color: #c5c6d0;">
+  <h3> About Me </h3>
+  <p> Currently a Fourth Year college student <br> in STI college Global City taking the course <br> BS in Information Technology </p>
+  <h3><a href="02(About Me).html" style="text-decoration: none; color: #c5c6d0;">Read More</h3>
+</div>
+
+</body>
+</html>

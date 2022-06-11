@@ -1,0 +1,267 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> EJ Ordillano Ecobiza's Portfolio </title>
+</head>
+
+<style>
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+body {
+  padding: 0 20px;
+  font-family: Montserrat-Regular;
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url("Montserrat-Regular.ttf");
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #322d31;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: #c5c6d0;
+  text-decoration: underline;
+}
+
+.topnav a.active {
+  color: #c5c6d0;
+  text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+.row1 {
+  margin: 8px -16px;
+}
+
+.row1,
+.row1 > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 33%
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: #808080;
+  padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #808080;
+  padding: 20px;
+  width: 100%;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  color: #232023;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+</style>
+
+<body>
+
+<div class="topnav">
+  <a href="01(Home).html">Home</a>
+  <a href="02(About Me).html">About Me</a>
+  <a href="03(Goals).html">Goals</a>
+  <a class="active" href="04(Contact).html">Contact</a>
+</div>
+
+<h1 style="text-align: center; color: #c5c6d0;">
+    <a href="01(Home).html" style="text-decoration: none; color: #c5c6d0;">Home</a> | <a>Contact</a>
+</h1>
+
+<div class="row1">
+  <div class="column">
+    <div class="content">
+      <img src="Address.png">
+        <h3 style="text-align: center; color: #c5c6d0;">Address</h3>
+        <p style="text-align: center; color: #c5c6d0;">Blk 11 Lot 9 Maryland Homes III San Vicente, San Pablo, Laguna City, CALABARZON Region, Philippines</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="Phone.png">
+      <h3 style="text-align: center; color: #c5c6d0;">Phone Number</h3>
+      <p style="text-align: center; color: #c5c6d0;">+63 917 167 9398</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="Gmail.png">
+      <h3 style="text-align: center; color: #c5c6d0;">Email</h3>
+      <p style="text-align: center; color: #c5c6d0;">ejecobiza25@gmail.com</p>
+    </div>
+  </div>
+</div>
+
+<div style="color: #c5c6d0;">
+  <h1> Interested? </h1>
+  <p> Send me a message! </p>
+</div>
+
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country" placeholder="Select">
+          <option value="cambodia">Cambodia</option>
+          <option value="costa rica">Costa Rica</option>
+          <option value="cyprus">Cyprus</option>
+          <option value="hungary">Hungary</option>
+          <option value="lebanon">Lebanon</option>
+          <option value="paraguay">Paraguay</option>
+          <option value="philippines">Philippines</option>
+          <option value="puerto rico">Puerto Rico</option>
+          <option value="rwanda">Rwanda</option>
+          <option value="trinidad tobago">Trinidad Tobago</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Message</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+
+<div style="position: fixed; top: 75px; right: 125px;"> 
+  <a href="https://www.facebook.com/eric.ecobiza"> 
+	<img src="Facebook.png">
+  </a> 
+</div>
+
+<div style="position: fixed; top: 75px; right: 75px;"> 
+  <a href="https://www.instagram.com/ejecobiza/">
+	<img src="Instagram.png">
+  </a> 
+</div>
+
+<div style="position: fixed; top: 75px; right: 25px;"> 
+  <a href="https://www.twitter.com/ejayordillano"> 
+	<img src="Twitter.png">
+  </a> 
+</div>
+
+</body>
+</html>
